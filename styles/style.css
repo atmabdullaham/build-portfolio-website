@@ -1,0 +1,62 @@
+/* Font */
+.open-sans-normal {
+ font-family: "Open Sans", sans-serif;
+ font-optical-sizing: auto;
+ font-style: normal;
+ font-variation-settings:
+  "wdth" 100;
+}
+
+/* header relate design */
+header>nav > ul > li > a {
+ text-decoration-line: none;
+}
+header > nav > ul > li{
+ list-style: none;
+}
+
+nav>ul{
+ display: flex;
+ gap: 51px;
+ align-items: center;
+}
+nav{
+ display: flex;
+ justify-content: space-between;
+
+}
+header > nav > h3 {
+ font-weight: 800;
+ font-size: 45px;
+
+
+}
+header > nav > h3 > span {
+ color: #FD6E0A;
+}
+
+/* The Color Class for easy use */
+
+.dark-one{
+color:#181818
+}
+
+.dark-two{
+ color: #474747;
+}
+
+.dark-three{
+ color:#757575 ;
+}
+.dark-four{
+ color: #A3A3A3;
+}
+.dark-five{
+ color: #D1D1D1;
+}
+.dark-six{
+ color: #E8E8E8;
+}
+.dark-seven{
+ color: #F3F3F3;
+}
