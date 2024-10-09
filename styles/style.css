@@ -78,6 +78,63 @@ width: 42.25em;
  display: flex;
  margin: 0px 30px 0px 230px;
 }
+
+.secondary-bg{
+ background-color: #FFF8F3;
+}
+
+/* Main section designs starts from here*/
+
+main{
+ max-width: 950px;
+ margin: 0 auto;
+}
+.section-title{
+ font-weight: bold;
+ font-size: 35px;
+color:#181818;
+}
+.section-description{
+ font-size: 18px;
+ color: #757575;
+}
+.about{
+ border-radius: 10px;
+ padding: 22px 100px;
+ text-align: center;
+ margin-top: 110px;
+}
+
+.item-description{
+ font-weight: 600;
+}
+
+.about-items{
+ display: flex;
+ justify-content: space-around;
+ ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* The Color Class for easy use */
 
 .dark-one{
