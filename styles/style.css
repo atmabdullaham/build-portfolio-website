@@ -137,6 +137,46 @@ color:#181818;
  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
 
+/* educations-and-experiences */
+
+.edu-ex-div{
+ margin:30px 2px;
+ 
+}
+.educations-and-experiences{
+ display: flex;
+ justify-content: space-evenly;
+ gap: 60px;
+}
+
+.edu-ex-main-heading {
+ font-weight: bold;
+ font-size: 30px;
+ color: #474747;
+}
+.edu-ex-div-title{
+ color: 474747;
+ font-weight: bold;
+ font-size: 20px;
+ color: #474747;
+ margin: 2px auto;
+ padding: 2px auto;
+}
+.edu-ex-div-sub{
+ font-weight: 500;
+ font-size: 20px;
+
+  margin: 2px auto;
+   padding: 2px auto;
+}
+
+.edu-ex-div-para{
+ font-weight: normal;
+ font-size: 16px;
+color: #757575;
+}
+
+
 
 
 
