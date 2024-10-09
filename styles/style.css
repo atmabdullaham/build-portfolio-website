@@ -11,30 +11,40 @@
 header>nav > ul > li > a {
  text-decoration-line: none;
 }
+/* li Style */
 header > nav > ul > li{
  list-style: none;
 }
-
+/* ul Style */
 nav>ul{
  display: flex;
  gap: 51px;
  align-items: center;
 }
+/* nav Style */
 nav{
  display: flex;
  justify-content: space-between;
- margin: 0px 230px 0px 290px;
-
+ margin: 0px 230px 0px 226px;
 }
+
 header > nav > h3 {
  font-weight: 800;
  font-size: 45px;
 
 
 }
+.header{
+ background-image: url("/images/developer.png"), url("/images/header_bg.png");
+ background-repeat: no-repeat;
+ background-position: top left, bottom right;
+background-size: 136px 700px, auto;
+
+}
 header > nav > h3 > span {
  color: #FD6E0A;
 }
+/* primary button for common uses */
 .btn-primary{
  background-color: #FD6E0A;
  font-weight: bold; 
@@ -47,15 +57,26 @@ header > nav > h3 > span {
 .banner-greetings{
  font-weight: 600;
  font-size: 45px;
+ margin: 60px 0px 0px 0px;
 }
 
 .banner-title{
  font-weight: bold;
  font-size: 85px;
+ margin: 0px;
+}
+.banner-left{
+ width: 615px;
+ 
+}
+.banner-profile-pic{
+height: 36.5em;
+width: 42.25em;
 }
 
-.banner-profile-pic{
- 
+.banner-writings{
+ display: flex;
+ margin: 0px 30px 0px 230px;
 }
 /* The Color Class for easy use */
 
